@@ -1,11 +1,11 @@
 # 📦 Capstone Project: Demand Forecasting in Supply Chain (Avnet – Team008)
 
 ## 👥 Team Members
-- Maria Sequeira  
-- Yuchin Chen  
-- Balbir Singh  
-- Rasika Teli  
-- Harsh Kevadiya  
+# -  Maria Sequeira  
+# - Yuchin Chen  
+# - Balbir Singh  
+# - Rasika Teli  
+# - Harsh Kevadiya
 
 ## 🎯 Project Sponsor
 **Company Name:** Avnet, Inc.  
