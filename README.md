@@ -83,24 +83,6 @@ Our objective:
 
 ---
 
-## 📈 Visual Model Comparison
-
-### 🔹 MAPE (Mean Absolute Percentage Error)
-
-This chart compares the error rates across different forecasting models. **Lower MAPE indicates higher accuracy**.
-
-![MAPE Comparison](MAPE_Comparison.png)
-
----
-
-### 🔹 RMSE (Root Mean Square Error)
-
-This chart shows the average magnitude of forecast errors. **Lower RMSE means predictions were closer to actual shipment quantities**.
-
-![RMSE Comparison](RMSE_Comparison.png)
-
----
-
 ## 📈 Key Findings
 
 - **Customer Forecasts Vary Widely**: Some customers over-predict, while others miss spikes.  
