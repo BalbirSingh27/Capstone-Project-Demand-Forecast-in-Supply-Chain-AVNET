@@ -92,7 +92,8 @@ Our objective:
 - `statsmodels` – used in SARIMAX model development  
 - `prophet` – used for baseline trend modeling
 
-> ✅ All models were built using **Python** in **Jupyter Notebooks** 🧪
+> ✅ > ✅ All models were built using **Python** in **Jupyter Notebooks** 🧪, with visualizations and dashboards created in **Tableau** 📊 and **Power BI** 📈.
+
 ---
 
 ## 📈 Key Findings
@@ -115,19 +116,22 @@ Our objective:
 
 ## 📢 Business Value
 
-- Reduced inventory imbalance  
-- Improved on-time delivery performance  
-- Enhanced production planning  
-- Strategic use of data-driven forecasting  
+- 📦 Reduced inventory imbalance through more accurate forecasting  
+- ⏱️ Improved on-time delivery performance  
+- 🧠 Enhanced production planning with predictive insights  
+- 📊 **Interactive dashboards via Tableau** for real-time decision-making  
+- 🤖 Strategic use of machine learning for scalable forecasting
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- Python (Pandas, Scikit-learn, XGBoost, Prophet, Statsmodels)  
-- Excel for data cleaning  
-- PowerPoint for presentations  
-- Tableau/Power BI for dashboarding (planned)  
+- 🐍 Python (`Pandas`, `Scikit-learn`, `XGBoost`, `Prophet`, `Statsmodels`)  
+- 📊 **Tableau** – used for interactive visualizations and dashboarding  
+- 📉 Excel – for initial data cleanup and inspection  
+- 🖼️ PowerPoint – for stakeholder presentations  
+- 📈 Power BI – planned for future executive dashboards  
+
 
 ---
 
