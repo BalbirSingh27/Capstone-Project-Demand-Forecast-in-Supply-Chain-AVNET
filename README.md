@@ -92,7 +92,7 @@ Our objective:
 - `statsmodels` – used in SARIMAX model development  
 - `prophet` – used for baseline trend modeling
 
-> ✅ All models were built using **Python** in [Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
+> ✅ All models were built using **Python** in **Jupyter Notebooks** 🧪
 ---
 
 ## 📈 Key Findings
