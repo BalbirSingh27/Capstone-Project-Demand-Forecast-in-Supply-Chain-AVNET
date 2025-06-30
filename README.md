@@ -81,6 +81,18 @@ Our objective:
 | Random Forest | 1.75     | 704,709     | Poor temporal awareness |
 | **XGBoost**   | **2.05** | **768,209** | Best overall fit, adaptable and scalable |
 
+### 🧰 Libraries Used for Modeling:
+
+- `pandas` – data loading and transformation  
+- `numpy` – numerical operations and reshaping  
+- `matplotlib.pyplot` – visualizations of trends and predictions  
+- `xgboost.XGBRegressor` – core model for forecasting  
+- `sklearn.metrics` – evaluation using MAPE and RMSE  
+- `re` – regular expressions for column cleaning and feature parsing  
+- `statsmodels` – used in SARIMAX model development  
+- `prophet` – used for baseline trend modeling
+
+> ✅ All models were built using **Python** in Jupyter Notebooks.
 ---
 
 ## 📈 Key Findings
