@@ -74,12 +74,23 @@ Our objective:
 
 ## 🤖 Model Performance
 
-| Model         | MAPE (%) | RMSE        | Comments |
-|---------------|----------|-------------|----------|
-| SARIMAX       | 0.57     | 803,865     | Good trend fit, weak future generalization |
-| Prophet       | 209.98   | 1,069,484   | Overextended trends |
-| Random Forest | 1.75     | 704,709     | Poor temporal awareness |
-| **XGBoost**   | **2.05** | **768,209** | Best overall fit, adaptable and scalable |
+## 🤖 Model Performance Summary
+
+| Model         | MAPE (%) | RMSE      | Comments                          |
+|---------------|----------|-----------|-----------------------------------|
+| SARIMAX       | 0.57     | 803,865   | Captured trend but limited future accuracy |
+| Prophet       | 209.98   | 1,069,484 | Over-forecasted significantly     |
+| Random Forest | 1.75     | **704,709** | Best RMSE, but limited temporal awareness |
+| XGBoost       | **2.05** | 768,209   | Balanced generalizability and performance |
+
+
+### 📌 Why XGBoost?
+Despite RF’s RMSE edge, **XGBoost** was preferred due to:
+- Lower forecast deviation across customers  
+- Stronger correlation with forecast change behavior  
+- Interpretability and robustness
+
+---
 
 ### 🧰 Libraries Used for Modeling:
 
@@ -96,7 +107,7 @@ Our objective:
 
 ---
 
-## 📈 Key Findings
+## 📈 Key Takeaways
 
 - **Customer Forecasts Vary Widely**: Some customers over-predict, while others miss spikes.  
 - **ASU Model Adds Stability**: Machine learning offered consistency and outperformed customer inputs.  
@@ -153,3 +164,4 @@ This project demonstrated that **machine learning models**—especially XGBoost�
 
 **Reference:**  
 [Avnet Americas](https://www.avnet.com/americas/)
+[NASDAQ Data](https://finance.yahoo.com/quote/%5EIXIC)
